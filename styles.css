@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+div{
+    height: 50vh;
+    background-color: black; */
+    
+}
+/* 
+@media (min-width:960px){
+    div{
+        background-color: blue;
+    }
+}
+@media (max-width:760px){
+    div{
+        background-color: rgb(255, 145, 0);
+    } */
+}
+
+.container{
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 100%;
+    opacity: .8;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: baseline;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */ */
+    
+}
+
+.two{
+    /* align-self: center; */
+
+    
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: brown;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin:0 auto;
+    height: 11vh;
+   
+}
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .one{
+    /* height: 100px; */
+    /* width: 100px;
+} */
+/* 
+.two{
+    height: 100px;
+    width: 100px;
+}
+.three{
+    height: 100px;
+    width: 100px;
+}
+.four{
+    height: 100px;
+    width: 100px;
+}
+.five{
+    height: 100px;
+    width: 100px;
+} */ */
